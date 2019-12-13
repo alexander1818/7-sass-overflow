@@ -1,0 +1,60 @@
+body {
+	// display: flex;
+	// flex-direction: row;
+	// justify-content: space-around;
+	// align-items:  center;
+	box-sizing: border-box;
+	background: url("../img/puzzle.jpg") ;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	background-size: cover;
+	color: #fff;
+	.block__red {
+		background: #f24;
+		opacity: 0.6;
+		.block-text {
+			overflow: hidden;
+			padding: 0 10px;
+		}
+	}
+	.block__black {
+		background: #000;
+		opacity: 0.6;
+		.block-text {
+			overflow-x: hidden;
+			padding: 0 10px;
+		}
+	}
+	.block__blue {
+		background: #34b;
+		opacity: 0.6;
+		.block-text {
+			overflow-y: hidden;
+			overflow-x: scroll;
+			padding: 0 10px;
+		}
+	}
+	.block__red, .block__black, .block__blue {
+		display: flex;
+		width: 150px;
+		height: 150px;
+		// padding: 10px, 5px, 8px;
+
+	}
+	.first-line__blocks {
+
+
+		.blocks{
+			width: 100px;
+			height: 100px;
+			background: #f24;
+			opacity: 0.6;
+
+		}
+	}
+
+	
+
+}
+
