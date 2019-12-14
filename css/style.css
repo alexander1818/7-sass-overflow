@@ -27,13 +27,22 @@ body {
       overflow-x: scroll;
       padding: 0 10px; }
   body .block__red, body .block__black, body .block__blue {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    width: 150px;
     height: 150px; }
   body .first-line__blocks .blocks {
     width: 100px;
-    height: 100px;
+    height: 100px; }
+  body .first-line__blocks .blocks-red {
     background: #f24;
+    opacity: 0.6; }
+  body .first-line__blocks .blocks-black {
+    background: #000;
+    opacity: 0.6; }
+  body .first-line__blocks .blocks-blue {
+    background: #34b;
+    opacity: 0.6; }
+  body .first-line__blocks .blocks-green {
+    background: green;
+    opacity: 0.6; }
+  body .first-line__blocks .blocks-yellow {
+    background: yellow;
     opacity: 0.6; }

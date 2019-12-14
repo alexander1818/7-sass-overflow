@@ -1,5 +1,48 @@
 body {
-  color: red; }
-
-.text {
-  font-size: 25px; }
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  background: url("../img/puzzle.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  color: #fff; }
+  body .block__red {
+    background: #f24;
+    opacity: 0.6; }
+    body .block__red .block-text {
+      overflow: hidden;
+      padding: 0 10px; }
+  body .block__black {
+    background: #000;
+    opacity: 0.6; }
+    body .block__black .block-text {
+      overflow-x: hidden;
+      padding: 0 10px; }
+  body .block__blue {
+    background: #34b;
+    opacity: 0.6; }
+    body .block__blue .block-text {
+      overflow-y: hidden;
+      overflow-x: scroll;
+      padding: 0 10px; }
+  body .block__red, body .block__black, body .block__blue {
+    height: 150px; }
+  body .first-line__blocks .blocks {
+    width: 100px;
+    height: 100px; }
+  body .first-line__blocks .blocks-red {
+    background: #f24;
+    opacity: 0.6; }
+  body .first-line__blocks .blocks-black {
+    background: #000;
+    opacity: 0.6; }
+  body .first-line__blocks .blocks-blue {
+    background: #34b;
+    opacity: 0.6; }
+  body .first-line__blocks .blocks-green {
+    background: green;
+    opacity: 0.6; }
+  body .first-line__blocks .blocks-yellow {
+    background: yellow;
+    opacity: 0.6; }
