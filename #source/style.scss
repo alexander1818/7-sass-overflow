@@ -1,8 +1,4 @@
 body {
-	// display: flex;
-	// flex-direction: row;
-	// justify-content: space-around;
-	// align-items:  center;
 	box-sizing: border-box;
 	background: url("../img/puzzle.jpg") ;
 	background-repeat: no-repeat;
@@ -36,25 +32,34 @@ body {
 		}
 	}
 	.block__red, .block__black, .block__blue {
-		display: flex;
-		width: 150px;
 		height: 150px;
-		// padding: 10px, 5px, 8px;
-
 	}
 	.first-line__blocks {
-
-
 		.blocks{
 			width: 100px;
 			height: 100px;
+		}
+		.blocks-red {
 			background: #f24;
 			opacity: 0.6;
-
+		}
+		.blocks-black {
+			background: #000;
+			opacity: 0.6;
+		}
+		.blocks-blue {
+			background: #34b;
+			opacity: 0.6;
+		}
+		.blocks-green {
+			background: green;
+			opacity: 0.6;
+		}
+		.blocks-yellow {
+			background: yellow;
+			opacity: 0.6;
 		}
 	}
-
-	
 
 }
 
